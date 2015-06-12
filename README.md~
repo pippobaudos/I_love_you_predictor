@@ -1,18 +1,18 @@
-I_love_you_predictor
-==============
+# I Love You Predictor, Machine learning experiment after a fun hackatown #DataScienceLondon @ds_ldn #gameshack 
 
-I Love You Predictor
-Started like a funny discussion during an hackatown, this experiment was about building a predictor able to predict if in the next conversation between a male and female one of them would declare his love to his patner, telling him/her: "I love you" 
-Using a movie-conversation dataset composed of 220,000 conversations from movies, we have used selected all the couple that has had a conversation.
-Then, for each couple we have listed all the conversation and, in case one contains "I love you", selected the previous 5 conversations.
-In case a couple's conversations doesn't contains any "I love you", we have selected randomly a group of of 5 following conversation.
+Started as funny discussion during a recent hackatown, this experiment is about building a classifier able to predict if in the next conversation between a couple, one of then would declare his love to his patner, telling him/her: "I love you" 
+
+Using a movie-conversation dataset composed of 220,000 conversations from movies, we have first selected all the couple that has had a conversation.
+Then we have split the couples in two groups, the ones fallen in love and all the others.
+
+The first group is about couple in which one of them has declared "I love you" to the other. For this couple we have selected the previous 5 conversations to the love declaration, as training data. For all the other couples, we have randomly selected a group of 5 following conversation.
 Then, build a predictor on Azure that looks to work really well:
 ![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/IsFallingInLove.png "Performance Predictor of IS FALLING IN LOVE")
 
 To train and validate the model we have used the followig dataset
 https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv
 
-This project contains some Apache Spark code used to build the data-set, using the full movie-datasets
+This project contains some Apache Spark code used to build the data-set, starting from the original csv files of the full movie-datasets
 
 
 
