@@ -15,11 +15,16 @@ Then, build a predictor on Azure that looks to work enough well:
 
 We have used the top 500 unigrams, from the text content. To train and validate the model we have used the followig dataset
 
-![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/datasetBuiltToTrain.png "Data set used to train/validate")
+![ExcelScreenshot](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/datasetBuiltToTrain.png "Data set used to train/validate")
 
 You can download here the dataset built, to train/validate the model:
 
 [Download the CSV dataset to train/validate the model](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv)
+
+
+That's the model built on Azure ML, used the prebuild sentimental analysis for Twitter, setting the top 500 unigrams like features.
+
+![Model on Azure ML](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/AzureModel.png "Model on Azure ML, used to train/validate")
 
 
 This project contains some Apache Spark code used to build the data-set, starting from the original csv files of the full movie-datasets
