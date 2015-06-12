@@ -12,7 +12,7 @@ Then, build a predictor on Azure that looks to work really well:
 To train and validate the model we have used the followig dataset
 https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv
 
-This project contains some Apache Spark code used to build the data-set, starting from the original csv files of the full movie-datasets
+This project contains some Apache Spark code used to build the data-set, using the full movie-datasets
 
 
 
