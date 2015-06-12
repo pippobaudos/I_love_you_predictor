@@ -1,6 +1,7 @@
 # I Love You Predictor, 
-##Machine learning experiment after a fun hackatown 
-##### @ds_ldn #DataScienceLondon #gameshack 
+##Machine learning experiment after a fun hackatown at DataScienceLondon
+
+##### @ds_ldn # #gameshack 
 
 Started as funny discussion during a recent hackatown, this experiment is about building a classifier able to predict if in the next conversation between a couple, one of then would declare his love to his patner, telling him/her: "I love you" 
 
@@ -16,8 +17,9 @@ To train and validate the model we have used the followig dataset
 
 ![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/datasetBuiltToTrain.png "Data set used to train/validate")
 
-You can download at the following link the dataset, to reproduce the experiment:
-https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv
+You can download here the dataset built, to train/validate the model:
+[Download the dataset](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv)
+
 
 This project contains some Apache Spark code used to build the data-set, starting from the original csv files of the full movie-datasets
 
