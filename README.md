@@ -13,7 +13,7 @@ Then, build a predictor on Azure that looks to work enough well:
 
 ![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/IsFallingInLove.png "Performance Predictor of IS FALLING IN LOVE")
 
-We have used the top 500 unigrams, from the text content. To train and validate the model we have used the followig dataset
+We have used the top 100 unigrams, from the text content. To train and validate the model we have used the followig dataset
 
 ![ExcelScreenshot](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/datasetBuiltToTrain.png "Data set used to train/validate")
 
@@ -22,7 +22,7 @@ You can download here the dataset built, to train/validate the model:
 [Download the CSV dataset to train/validate the model](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv)
 
 
-That's the model built on Azure ML, used the prebuild sentimental analysis for Twitter, setting the top 500 unigrams like features.
+That's the model built on Azure ML, used the prebuild sentimental analysis for Twitter, setting the top 100 unigrams like features.
 
 ![Model on Azure ML](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/AzureModel.png "Model on Azure ML, used to train/validate")
 

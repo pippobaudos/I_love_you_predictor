@@ -27,7 +27,6 @@ That's the model built on Azure ML, used the prebuild sentimental analysis for T
 ![Model on Azure ML](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/AzureModel.png "Model on Azure ML, used to train/validate")
 
 
-
 This project contains some Apache Spark code used to build the data-set, starting from the original csv files of the full movie-datasets
 
 
