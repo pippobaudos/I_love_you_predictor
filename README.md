@@ -18,7 +18,8 @@ We have used the top 500 unigrams, from the text content. To train and validate 
 ![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/datasetBuiltToTrain.png "Data set used to train/validate")
 
 You can download here the dataset built, to train/validate the model:
-[Download the CSV dataset](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv)
+
+[Download the CSV dataset to train/validate the model](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/I_love_you_predictor.csv)
 
 
 This project contains some Apache Spark code used to build the data-set, starting from the original csv files of the full movie-datasets
