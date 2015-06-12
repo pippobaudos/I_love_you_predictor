@@ -1,7 +1,7 @@
 # I Love You Predictor, 
 ##Machine learning experiment after a fun hackatown at DataScienceLondon
 
-##### @ds_ldn # #gameshack 
+##### @ds_ldn [#gameshack](http://www.meetup.com/Data-Science-London/events/222708603/)
 
 Started as funny discussion during a recent hackatown, this experiment is about building a classifier able to predict if in the next conversation between a couple, one of then would declare his love to his patner, telling him/her: "I love you" 
 
@@ -13,7 +13,7 @@ Then, build a predictor on Azure that looks to work enough well:
 
 ![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/IsFallingInLove.png "Performance Predictor of IS FALLING IN LOVE")
 
-To train and validate the model we have used the followig dataset
+We have used the top 500 unigrams, from the text content. To train and validate the model we have used the followig dataset
 
 ![Model Performance](https://dl.dropboxusercontent.com/u/7335663/machine_learning_experiment/datasetBuiltToTrain.png "Data set used to train/validate")
 
